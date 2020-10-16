@@ -4,8 +4,8 @@ from selenium import webdriver
 browser=webdriver.Chrome('C:\\Users\\ARNAB RAY\\Desktop\\python\\chromedriver_win32\\chromedriver.exe')
 
 browser.get("https://www.facebook.com")
-user_id="alfatitas747ray@gmail.com"
-password="arnaabray"
+user_id="Enter your id name"
+password="Enter your password"
 
 
 element=browser.find_element_by_id("email")
